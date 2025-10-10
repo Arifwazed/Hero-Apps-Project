@@ -4,33 +4,18 @@
     "title": "WhatsApp Messenger",
     "companyName": "WhatsApp LLC",
     "id": 1,
-    "description": "WhatsApp Messenger by WhatsApp LLC — overview and technical summary:\n1) Purpose: Provides core functionality for users to connect, create, or consume content depending on the app domain.\n2) Architecture: Built with a modular client-side UI, efficient data caching, and CDN-backed static assets.\n3) Performance: Optimized for low-latency responses and minimal memory footprint on mobile devices.\n4) Data Handling: Uses secure transport (TLS) and robust local caching with eviction policies.\n5) Offline Support: Graceful degradation, queuing of user actions while offline, and reliable sync when online.\n6) Multimedia: Efficient codecs and adaptive streaming for audio/video to adjust to bandwidth.\n7) Security: Multi-layered authentication, optional two-factor auth, and periodic security audits.\n8) Privacy: User data minimization and settings for explicit consent and data export.\n9) Scalability: Back-end horizontally scales and uses sharding for large user bases.\n10) APIs: Public/private APIs for integrations and developer tooling.\n11) Accessibility: ARIA labels, screen-reader support, and adjustable font sizes.\n12) Internationalization: Locale-aware formatting, multi-language content, right-to-left support.\n13) Battery Optimization: Background tasks throttled and batching used to reduce wakeups.\n14) Network Efficiency: Uses compression, request coalescing, and delta payloads to lower data use.\n15) Reliability: Retry strategies with exponential backoff for transient failures.\n16) Observability: Metrics, logs, and traces collected to detect regressions quickly.\n17) Testing: Automated E2E and unit coverage for core user flows.\n18) UX: Intuitive navigation patterns and consistent micro-interactions across screens.\n19) Onboarding: Progressive disclosure and contextual tips to improve retention.\n20) Updates: Seamless incremental updates and graceful migration for persisted data.\n21) Monetization: Supports ads/subscriptions/in-app purchases with configurable offers.\n22) Admin Tools: Moderation, analytics dashboards, and content controls for operators.\n23) Compliance: GDPR, CCPA considerations and regional data controls where required.\n24) Troubleshooting: Built-in diagnostics, crash reporting, and user feedback flows.\n25) Roadmap: Regular releases focused on stability, new integrations, and accessibility improvements.",
+    "description": "Fast, simple, and secure messaging app to stay connected with friends and family. Send text messages, voice messages, images, and videos instantly.\nCreate groups, make voice and video calls, and share documents easily. WhatsApp ensures privacy with end-to-end encryption for all communications.",
     "size": 85,
-    "reviews": 7200000,
-    "ratingAvg": 4.5,
+    "reviews": 150000000,
+    "ratingAvg": 4.6,
     "ratingClass": "Excellent",
-    "downloads": "180M",
+    "downloads": 180,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 180000
-      },
-      {
-        "name": "2 star",
-        "count": 270000
-      },
-      {
-        "name": "3 star",
-        "count": 900000
-      },
-      {
-        "name": "4 star",
-        "count": 2250000
-      },
-      {
-        "name": "5 star",
-        "count": 5400000
-      }
+      { "name": "1 star", "count": 3600 },
+      { "name": "2 star", "count": 6300 },
+      { "name": "3 star", "count": 14400 },
+      { "name": "4 star", "count": 39600 },
+      { "name": "5 star", "count": 216000 }
     ]
   },
   {
@@ -38,33 +23,18 @@
     "title": "Facebook",
     "companyName": "Meta Platforms, Inc.",
     "id": 2,
-    "description": "Facebook by Meta Platforms, Inc. — overview and technical summary:\n1) Purpose: Provides core functionality for users to connect, create, or consume content depending on the app domain.\n2) Architecture: Built with a modular client-side UI, efficient data caching, and CDN-backed static assets.\n3) Performance: Optimized for low-latency responses and minimal memory footprint on mobile devices.\n4) Data Handling: Uses secure transport (TLS) and robust local caching with eviction policies.\n5) Offline Support: Graceful degradation, queuing of user actions while offline, and reliable sync when online.\n6) Multimedia: Efficient codecs and adaptive streaming for audio/video to adjust to bandwidth.\n7) Security: Multi-layered authentication, optional two-factor auth, and periodic security audits.\n8) Privacy: User data minimization and settings for explicit consent and data export.\n9) Scalability: Back-end horizontally scales and uses sharding for large user bases.\n10) APIs: Public/private APIs for integrations and developer tooling.\n11) Accessibility: ARIA labels, screen-reader support, and adjustable font sizes.\n12) Internationalization: Locale-aware formatting, multi-language content, right-to-left support.\n13) Battery Optimization: Background tasks throttled and batching used to reduce wakeups.\n14) Network Efficiency: Uses compression, request coalescing, and delta payloads to lower data use.\n15) Reliability: Retry strategies with exponential backoff for transient failures.\n16) Observability: Metrics, logs, and traces collected to detect regressions quickly.\n17) Testing: Automated E2E and unit coverage for core user flows.\n18) UX: Intuitive navigation patterns and consistent micro-interactions across screens.\n19) Onboarding: Progressive disclosure and contextual tips to improve retention.\n20) Updates: Seamless incremental updates and graceful migration for persisted data.\n21) Monetization: Supports ads/subscriptions/in-app purchases with configurable offers.\n22) Admin Tools: Moderation, analytics dashboards, and content controls for operators.\n23) Compliance: GDPR, CCPA considerations and regional data controls where required.\n24) Troubleshooting: Built-in diagnostics, crash reporting, and user feedback flows.\n25) Roadmap: Regular releases focused on stability, new integrations, and accessibility improvements.",
-    "size": 100,
-    "reviews": 6800000,
-    "ratingAvg": 4.5,
-    "ratingClass": "Very Good",
-    "downloads": "170M",
+    "description": "Connect with friends, share updates, photos, and videos in a global community. Follow pages, join groups, and discover events that interest you.\nEngage with your friends through comments and likes, and enjoy personalized news feeds. Facebook also offers tools for businesses to manage pages and ads.",
+    "size": 120,
+    "reviews": 130000000,
+    "ratingAvg": 4.1,
+    "ratingClass": "Good",
+    "downloads": 150,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 170000
-      },
-      {
-        "name": "2 star",
-        "count": 255000
-      },
-      {
-        "name": "3 star",
-        "count": 850000
-      },
-      {
-        "name": "4 star",
-        "count": 2125000
-      },
-      {
-        "name": "5 star",
-        "count": 5100000
-      }
+      { "name": "1 star", "count": 5400 },
+      { "name": "2 star", "count": 4500 },
+      { "name": "3 star", "count": 9900 },
+      { "name": "4 star", "count": 21600 },
+      { "name": "5 star", "count": 75600 }
     ]
   },
   {
@@ -72,33 +42,18 @@
     "title": "Instagram",
     "companyName": "Instagram",
     "id": 3,
-    "description": "Instagram by Instagram — overview and technical summary:\n1) Purpose: Provides core functionality for users to connect, create, or consume content depending on the app domain.\n2) Architecture: Built with a modular client-side UI, efficient data caching, and CDN-backed static assets.\n3) Performance: Optimized for low-latency responses and minimal memory footprint on mobile devices.\n4) Data Handling: Uses secure transport (TLS) and robust local caching with eviction policies.\n5) Offline Support: Graceful degradation, queuing of user actions while offline, and reliable sync when online.\n6) Multimedia: Efficient codecs and adaptive streaming for audio/video to adjust to bandwidth.\n7) Security: Multi-layered authentication, optional two-factor auth, and periodic security audits.\n8) Privacy: User data minimization and settings for explicit consent and data export.\n9) Scalability: Back-end horizontally scales and uses sharding for large user bases.\n10) APIs: Public/private APIs for integrations and developer tooling.\n11) Accessibility: ARIA labels, screen-reader support, and adjustable font sizes.\n12) Internationalization: Locale-aware formatting, multi-language content, right-to-left support.\n13) Battery Optimization: Background tasks throttled and batching used to reduce wakeups.\n14) Network Efficiency: Uses compression, request coalescing, and delta payloads to lower data use.\n15) Reliability: Retry strategies with exponential backoff for transient failures.\n16) Observability: Metrics, logs, and traces collected to detect regressions quickly.\n17) Testing: Automated E2E and unit coverage for core user flows.\n18) UX: Intuitive navigation patterns and consistent micro-interactions across screens.\n19) Onboarding: Progressive disclosure and contextual tips to improve retention.\n20) Updates: Seamless incremental updates and graceful migration for persisted data.\n21) Monetization: Supports ads/subscriptions/in-app purchases with configurable offers.\n22) Admin Tools: Moderation, analytics dashboards, and content controls for operators.\n23) Compliance: GDPR, CCPA considerations and regional data controls where required.\n24) Troubleshooting: Built-in diagnostics, crash reporting, and user feedback flows.\n25) Roadmap: Regular releases focused on stability, new integrations, and accessibility improvements.",
-    "size": 100,
-    "reviews": 6000000,
-    "ratingAvg": 4.6,
-    "ratingClass": "Good",
-    "downloads": "150M",
+    "description": "Share photos, reels, and connect with your followers on the world’s visual platform. Apply creative filters and editing tools to your media.\nExplore trending content, follow friends and celebrities, and interact through likes and comments. Instagram also supports shopping and business profiles for creators.",
+    "size": 95,
+    "reviews": 100000000,
+    "ratingAvg": 4.4,
+    "ratingClass": "Very Good",
+    "downloads": 120,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 150000
-      },
-      {
-        "name": "2 star",
-        "count": 225000
-      },
-      {
-        "name": "3 star",
-        "count": 750000
-      },
-      {
-        "name": "4 star",
-        "count": 1875000
-      },
-      {
-        "name": "5 star",
-        "count": 4500000
-      }
+      { "name": "1 star", "count": 4200 },
+      { "name": "2 star", "count": 5040 },
+      { "name": "3 star", "count": 8400 },
+      { "name": "4 star", "count": 24000 },
+      { "name": "5 star", "count": 81600 }
     ]
   },
   {
@@ -106,33 +61,18 @@
     "title": "YouTube",
     "companyName": "Google LLC",
     "id": 4,
-    "description": "YouTube by Google LLC — overview and technical summary:\n1) Purpose: Provides core functionality for users to connect, create, or consume content depending on the app domain.\n2) Architecture: Built with a modular client-side UI, efficient data caching, and CDN-backed static assets.\n3) Performance: Optimized for low-latency responses and minimal memory footprint on mobile devices.\n4) Data Handling: Uses secure transport (TLS) and robust local caching with eviction policies.\n5) Offline Support: Graceful degradation, queuing of user actions while offline, and reliable sync when online.\n6) Multimedia: Efficient codecs and adaptive streaming for audio/video to adjust to bandwidth.\n7) Security: Multi-layered authentication, optional two-factor auth, and periodic security audits.\n8) Privacy: User data minimization and settings for explicit consent and data export.\n9) Scalability: Back-end horizontally scales and uses sharding for large user bases.\n10) APIs: Public/private APIs for integrations and developer tooling.\n11) Accessibility: ARIA labels, screen-reader support, and adjustable font sizes.\n12) Internationalization: Locale-aware formatting, multi-language content, right-to-left support.\n13) Battery Optimization: Background tasks throttled and batching used to reduce wakeups.\n14) Network Efficiency: Uses compression, request coalescing, and delta payloads to lower data use.\n15) Reliability: Retry strategies with exponential backoff for transient failures.\n16) Observability: Metrics, logs, and traces collected to detect regressions quickly.\n17) Testing: Automated E2E and unit coverage for core user flows.\n18) UX: Intuitive navigation patterns and consistent micro-interactions across screens.\n19) Onboarding: Progressive disclosure and contextual tips to improve retention.\n20) Updates: Seamless incremental updates and graceful migration for persisted data.\n21) Monetization: Supports ads/subscriptions/in-app purchases with configurable offers.\n22) Admin Tools: Moderation, analytics dashboards, and content controls for operators.\n23) Compliance: GDPR, CCPA considerations and regional data controls where required.\n24) Troubleshooting: Built-in diagnostics, crash reporting, and user feedback flows.\n25) Roadmap: Regular releases focused on stability, new integrations, and accessibility improvements.",
-    "size": 100,
-    "reviews": 7600000,
-    "ratingAvg": 4.7,
+    "description": "Watch, upload, and share videos across a wide variety of topics and interests. Subscribe to channels and get notifications for new content.\nUse playlists to organize videos, comment and interact with creators, and enjoy live streaming. YouTube provides a mix of entertainment, education, and news content.",
+    "size": 150,
+    "reviews": 180000000,
+    "ratingAvg": 4.5,
     "ratingClass": "Excellent",
-    "downloads": "190M",
+    "downloads": 190,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 190000
-      },
-      {
-        "name": "2 star",
-        "count": 285000
-      },
-      {
-        "name": "3 star",
-        "count": 950000
-      },
-      {
-        "name": "4 star",
-        "count": 2375000
-      },
-      {
-        "name": "5 star",
-        "count": 5700000
-      }
+      { "name": "1 star", "count": 7600 },
+      { "name": "2 star", "count": 9500 },
+      { "name": "3 star", "count": 22800 },
+      { "name": "4 star", "count": 57000 },
+      { "name": "5 star", "count": 129900 }
     ]
   },
   {
@@ -140,33 +80,18 @@
     "title": "Spotify",
     "companyName": "Spotify AB",
     "id": 5,
-    "description": "Spotify by Spotify AB — overview and technical summary:\n1) Purpose: Provides core functionality for users to connect, create, or consume content depending on the app domain.\n2) Architecture: Built with a modular client-side UI, efficient data caching, and CDN-backed static assets.\n3) Performance: Optimized for low-latency responses and minimal memory footprint on mobile devices.\n4) Data Handling: Uses secure transport (TLS) and robust local caching with eviction policies.\n5) Offline Support: Graceful degradation, queuing of user actions while offline, and reliable sync when online.\n6) Multimedia: Efficient codecs and adaptive streaming for audio/video to adjust to bandwidth.\n7) Security: Multi-layered authentication, optional two-factor auth, and periodic security audits.\n8) Privacy: User data minimization and settings for explicit consent and data export.\n9) Scalability: Back-end horizontally scales and uses sharding for large user bases.\n10) APIs: Public/private APIs for integrations and developer tooling.\n11) Accessibility: ARIA labels, screen-reader support, and adjustable font sizes.\n12) Internationalization: Locale-aware formatting, multi-language content, right-to-left support.\n13) Battery Optimization: Background tasks throttled and batching used to reduce wakeups.\n14) Network Efficiency: Uses compression, request coalescing, and delta payloads to lower data use.\n15) Reliability: Retry strategies with exponential backoff for transient failures.\n16) Observability: Metrics, logs, and traces collected to detect regressions quickly.\n17) Testing: Automated E2E and unit coverage for core user flows.\n18) UX: Intuitive navigation patterns and consistent micro-interactions across screens.\n19) Onboarding: Progressive disclosure and contextual tips to improve retention.\n20) Updates: Seamless incremental updates and graceful migration for persisted data.\n21) Monetization: Supports ads/subscriptions/in-app purchases with configurable offers.\n22) Admin Tools: Moderation, analytics dashboards, and content controls for operators.\n23) Compliance: GDPR, CCPA considerations and regional data controls where required.\n24) Troubleshooting: Built-in diagnostics, crash reporting, and user feedback flows.\n25) Roadmap: Regular releases focused on stability, new integrations, and accessibility improvements.",
-    "size": 100,
-    "reviews": 6400000,
+    "description": "Stream millions of songs, podcasts, and playlists from around the world. Discover new music tailored to your taste.\nCreate and share playlists, follow artists, and enjoy offline listening. Spotify offers personalized recommendations and high-quality audio playback.",
+    "size": 80,
+    "reviews": 95000000,
     "ratingAvg": 4.7,
-    "ratingClass": "Very Good",
-    "downloads": "160M",
+    "ratingClass": "Excellent",
+    "downloads": 100,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 160000
-      },
-      {
-        "name": "2 star",
-        "count": 240000
-      },
-      {
-        "name": "3 star",
-        "count": 800000
-      },
-      {
-        "name": "4 star",
-        "count": 2000000
-      },
-      {
-        "name": "5 star",
-        "count": 4800000
-      }
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 67000 }
     ]
   },
   {
@@ -174,33 +99,18 @@
     "title": "TikTok",
     "companyName": "TikTok Pte. Ltd.",
     "id": 6,
-    "description": "TikTok by TikTok Pte. Ltd. — overview and technical summary:\n1) Purpose: Provides core functionality for users to connect, create, or consume content depending on the app domain.\n2) Architecture: Built with a modular client-side UI, efficient data caching, and CDN-backed static assets.\n3) Performance: Optimized for low-latency responses and minimal memory footprint on mobile devices.\n4) Data Handling: Uses secure transport (TLS) and robust local caching with eviction policies.\n5) Offline Support: Graceful degradation, queuing of user actions while offline, and reliable sync when online.\n6) Multimedia: Efficient codecs and adaptive streaming for audio/video to adjust to bandwidth.\n7) Security: Multi-layered authentication, optional two-factor auth, and periodic security audits.\n8) Privacy: User data minimization and settings for explicit consent and data export.\n9) Scalability: Back-end horizontally scales and uses sharding for large user bases.\n10) APIs: Public/private APIs for integrations and developer tooling.\n11) Accessibility: ARIA labels, screen-reader support, and adjustable font sizes.\n12) Internationalization: Locale-aware formatting, multi-language content, right-to-left support.\n13) Battery Optimization: Background tasks throttled and batching used to reduce wakeups.\n14) Network Efficiency: Uses compression, request coalescing, and delta payloads to lower data use.\n15) Reliability: Retry strategies with exponential backoff for transient failures.\n16) Observability: Metrics, logs, and traces collected to detect regressions quickly.\n17) Testing: Automated E2E and unit coverage for core user flows.\n18) UX: Intuitive navigation patterns and consistent micro-interactions across screens.\n19) Onboarding: Progressive disclosure and contextual tips to improve retention.\n20) Updates: Seamless incremental updates and graceful migration for persisted data.\n21) Monetization: Supports ads/subscriptions/in-app purchases with configurable offers.\n22) Admin Tools: Moderation, analytics dashboards, and content controls for operators.\n23) Compliance: GDPR, CCPA considerations and regional data controls where required.\n24) Troubleshooting: Built-in diagnostics, crash reporting, and user feedback flows.\n25) Roadmap: Regular releases focused on stability, new integrations, and accessibility improvements.",
-    "size": 100,
-    "reviews": 6000000,
-    "ratingAvg": 4.5,
-    "ratingClass": "Good",
-    "downloads": "150M",
+    "description": "Create and discover short videos filled with fun, creativity, and entertainment. Explore trending challenges and viral content.\nInteract with the community through likes, comments, and shares. TikTok provides tools for editing, music, and effects to enhance your videos.",
+    "size": 110,
+    "reviews": 120000000,
+    "ratingAvg": 4.3,
+    "ratingClass": "Very Good",
+    "downloads": 130,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 150000
-      },
-      {
-        "name": "2 star",
-        "count": 225000
-      },
-      {
-        "name": "3 star",
-        "count": 750000
-      },
-      {
-        "name": "4 star",
-        "count": 1875000
-      },
-      {
-        "name": "5 star",
-        "count": 4500000
-      }
+      { "name": "1 star", "count": 4500 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 77000 }
     ]
   },
   {
@@ -208,33 +118,18 @@
     "title": "X (Twitter)",
     "companyName": "X Corp.",
     "id": 7,
-    "description": "X (Twitter) by X Corp. — overview and technical summary:\n1) Purpose: Provides core functionality for users to connect, create, or consume content depending on the app domain.\n2) Architecture: Built with a modular client-side UI, efficient data caching, and CDN-backed static assets.\n3) Performance: Optimized for low-latency responses and minimal memory footprint on mobile devices.\n4) Data Handling: Uses secure transport (TLS) and robust local caching with eviction policies.\n5) Offline Support: Graceful degradation, queuing of user actions while offline, and reliable sync when online.\n6) Multimedia: Efficient codecs and adaptive streaming for audio/video to adjust to bandwidth.\n7) Security: Multi-layered authentication, optional two-factor auth, and periodic security audits.\n8) Privacy: User data minimization and settings for explicit consent and data export.\n9) Scalability: Back-end horizontally scales and uses sharding for large user bases.\n10) APIs: Public/private APIs for integrations and developer tooling.\n11) Accessibility: ARIA labels, screen-reader support, and adjustable font sizes.\n12) Internationalization: Locale-aware formatting, multi-language content, right-to-left support.\n13) Battery Optimization: Background tasks throttled and batching used to reduce wakeups.\n14) Network Efficiency: Uses compression, request coalescing, and delta payloads to lower data use.\n15) Reliability: Retry strategies with exponential backoff for transient failures.\n16) Observability: Metrics, logs, and traces collected to detect regressions quickly.\n17) Testing: Automated E2E and unit coverage for core user flows.\n18) UX: Intuitive navigation patterns and consistent micro-interactions across screens.\n19) Onboarding: Progressive disclosure and contextual tips to improve retention.\n20) Updates: Seamless incremental updates and graceful migration for persisted data.\n21) Monetization: Supports ads/subscriptions/in-app purchases with configurable offers.\n22) Admin Tools: Moderation, analytics dashboards, and content controls for operators.\n23) Compliance: GDPR, CCPA considerations and regional data controls where required.\n24) Troubleshooting: Built-in diagnostics, crash reporting, and user feedback flows.\n25) Roadmap: Regular releases focused on stability, new integrations, and accessibility improvements.",
-    "size": 100,
-    "reviews": 6240000,
-    "ratingAvg": 4.5,
-    "ratingClass": "Excellent",
-    "downloads": "130M",
+    "description": "Share short messages, stay informed, and join the global conversation in real time. Follow accounts, hashtags, and trending topics.\nEngage with tweets through likes, retweets, and replies. X provides news, entertainment, and discussion spaces for communities worldwide.",
+    "size": 60,
+    "reviews": 80000000,
+    "ratingAvg": 4.0,
+    "ratingClass": "Good",
+    "downloads": 120,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 156000
-      },
-      {
-        "name": "2 star",
-        "count": 234000
-      },
-      {
-        "name": "3 star",
-        "count": 780000
-      },
-      {
-        "name": "4 star",
-        "count": 1950000
-      },
-      {
-        "name": "5 star",
-        "count": 4680000
-      }
+      { "name": "1 star", "count": 7000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 16000 },
+      { "name": "5 star", "count": 41000 }
     ]
   },
   {
@@ -242,33 +137,18 @@
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "id": 8,
-    "description": "Telegram by Telegram FZ-LLC — overview and technical summary:\n1) Purpose: Provides core functionality for users to connect, create, or consume content depending on the app domain.\n2) Architecture: Built with a modular client-side UI, efficient data caching, and CDN-backed static assets.\n3) Performance: Optimized for low-latency responses and minimal memory footprint on mobile devices.\n4) Data Handling: Uses secure transport (TLS) and robust local caching with eviction policies.\n5) Offline Support: Graceful degradation, queuing of user actions while offline, and reliable sync when online.\n6) Multimedia: Efficient codecs and adaptive streaming for audio/video to adjust to bandwidth.\n7) Security: Multi-layered authentication, optional two-factor auth, and periodic security audits.\n8) Privacy: User data minimization and settings for explicit consent and data export.\n9) Scalability: Back-end horizontally scales and uses sharding for large user bases.\n10) APIs: Public/private APIs for integrations and developer tooling.\n11) Accessibility: ARIA labels, screen-reader support, and adjustable font sizes.\n12) Internationalization: Locale-aware formatting, multi-language content, right-to-left support.\n13) Battery Optimization: Background tasks throttled and batching used to reduce wakeups.\n14) Network Efficiency: Uses compression, request coalescing, and delta payloads to lower data use.\n15) Reliability: Retry strategies with exponential backoff for transient failures.\n16) Observability: Metrics, logs, and traces collected to detect regressions quickly.\n17) Testing: Automated E2E and unit coverage for core user flows.\n18) UX: Intuitive navigation patterns and consistent micro-interactions across screens.\n19) Onboarding: Progressive disclosure and contextual tips to improve retention.\n20) Updates: Seamless incremental updates and graceful migration for persisted data.\n21) Monetization: Supports ads/subscriptions/in-app purchases with configurable offers.\n22) Admin Tools: Moderation, analytics dashboards, and content controls for operators.\n23) Compliance: GDPR, CCPA considerations and regional data controls where required.\n24) Troubleshooting: Built-in diagnostics, crash reporting, and user feedback flows.\n25) Roadmap: Regular releases focused on stability, new integrations, and accessibility improvements.",
-    "size": 100,
-    "reviews": 5760000,
-    "ratingAvg": 4.6,
-    "ratingClass": "Very Good",
-    "downloads": "120M",
+    "description": "Fast, secure, and powerful messaging app with privacy-focused features. Send messages, photos, and videos instantly.\nCreate channels, groups, and bots to enhance communication. Telegram supports cloud storage for easy access to files across devices.",
+    "size": 70,
+    "reviews": 60000000,
+    "ratingAvg": 4.5,
+    "ratingClass": "Excellent",
+    "downloads": 90,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 144000
-      },
-      {
-        "name": "2 star",
-        "count": 216000
-      },
-      {
-        "name": "3 star",
-        "count": 720000
-      },
-      {
-        "name": "4 star",
-        "count": 1800000
-      },
-      {
-        "name": "5 star",
-        "count": 4320000
-      }
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 42000 }
     ]
   },
   {
@@ -276,33 +156,18 @@
     "title": "Snapchat",
     "companyName": "Snap Inc.",
     "id": 9,
-    "description": "Snapchat by Snap Inc. — overview and technical summary:\n1) Purpose: Provides core functionality for users to connect, create, or consume content depending on the app domain.\n2) Architecture: Built with a modular client-side UI, efficient data caching, and CDN-backed static assets.\n3) Performance: Optimized for low-latency responses and minimal memory footprint on mobile devices.\n4) Data Handling: Uses secure transport (TLS) and robust local caching with eviction policies.\n5) Offline Support: Graceful degradation, queuing of user actions while offline, and reliable sync when online.\n6) Multimedia: Efficient codecs and adaptive streaming for audio/video to adjust to bandwidth.\n7) Security: Multi-layered authentication, optional two-factor auth, and periodic security audits.\n8) Privacy: User data minimization and settings for explicit consent and data export.\n9) Scalability: Back-end horizontally scales and uses sharding for large user bases.\n10) APIs: Public/private APIs for integrations and developer tooling.\n11) Accessibility: ARIA labels, screen-reader support, and adjustable font sizes.\n12) Internationalization: Locale-aware formatting, multi-language content, right-to-left support.\n13) Battery Optimization: Background tasks throttled and batching used to reduce wakeups.\n14) Network Efficiency: Uses compression, request coalescing, and delta payloads to lower data use.\n15) Reliability: Retry strategies with exponential backoff for transient failures.\n16) Observability: Metrics, logs, and traces collected to detect regressions quickly.\n17) Testing: Automated E2E and unit coverage for core user flows.\n18) UX: Intuitive navigation patterns and consistent micro-interactions across screens.\n19) Onboarding: Progressive disclosure and contextual tips to improve retention.\n20) Updates: Seamless incremental updates and graceful migration for persisted data.\n21) Monetization: Supports ads/subscriptions/in-app purchases with configurable offers.\n22) Admin Tools: Moderation, analytics dashboards, and content controls for operators.\n23) Compliance: GDPR, CCPA considerations and regional data controls where required.\n24) Troubleshooting: Built-in diagnostics, crash reporting, and user feedback flows.\n25) Roadmap: Regular releases focused on stability, new integrations, and accessibility improvements.",
-    "size": 100,
-    "reviews": 4800000,
-    "ratingAvg": 4.7,
+    "description": "Send quick snaps, chat with friends, and discover trending stories from around the world. Explore filters and AR effects.\nKeep in touch with friends via messages and video calls. Snapchat also provides Spotlight for viral content and Memories to save your snaps.",
+    "size": 95,
+    "reviews": 90000000,
+    "ratingAvg": 4.2,
     "ratingClass": "Good",
-    "downloads": "100M",
+    "downloads": 100,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 120000
-      },
-      {
-        "name": "2 star",
-        "count": 180000
-      },
-      {
-        "name": "3 star",
-        "count": 600000
-      },
-      {
-        "name": "4 star",
-        "count": 1500000
-      },
-      {
-        "name": "5 star",
-        "count": 3600000
-      }
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 4500 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 22000 },
+      { "name": "5 star", "count": 51500 }
     ]
   },
   {
@@ -310,33 +175,18 @@
     "title": "Netflix",
     "companyName": "Netflix, Inc.",
     "id": 10,
-    "description": "Netflix by Netflix, Inc. — overview and technical summary:\n1) Purpose: Provides core functionality for users to connect, create, or consume content depending on the app domain.\n2) Architecture: Built with a modular client-side UI, efficient data caching, and CDN-backed static assets.\n3) Performance: Optimized for low-latency responses and minimal memory footprint on mobile devices.\n4) Data Handling: Uses secure transport (TLS) and robust local caching with eviction policies.\n5) Offline Support: Graceful degradation, queuing of user actions while offline, and reliable sync when online.\n6) Multimedia: Efficient codecs and adaptive streaming for audio/video to adjust to bandwidth.\n7) Security: Multi-layered authentication, optional two-factor auth, and periodic security audits.\n8) Privacy: User data minimization and settings for explicit consent and data export.\n9) Scalability: Back-end horizontally scales and uses sharding for large user bases.\n10) APIs: Public/private APIs for integrations and developer tooling.\n11) Accessibility: ARIA labels, screen-reader support, and adjustable font sizes.\n12) Internationalization: Locale-aware formatting, multi-language content, right-to-left support.\n13) Battery Optimization: Background tasks throttled and batching used to reduce wakeups.\n14) Network Efficiency: Uses compression, request coalescing, and delta payloads to lower data use.\n15) Reliability: Retry strategies with exponential backoff for transient failures.\n16) Observability: Metrics, logs, and traces collected to detect regressions quickly.\n17) Testing: Automated E2E and unit coverage for core user flows.\n18) UX: Intuitive navigation patterns and consistent micro-interactions across screens.\n19) Onboarding: Progressive disclosure and contextual tips to improve retention.\n20) Updates: Seamless incremental updates and graceful migration for persisted data.\n21) Monetization: Supports ads/subscriptions/in-app purchases with configurable offers.\n22) Admin Tools: Moderation, analytics dashboards, and content controls for operators.\n23) Compliance: GDPR, CCPA considerations and regional data controls where required.\n24) Troubleshooting: Built-in diagnostics, crash reporting, and user feedback flows.\n25) Roadmap: Regular releases focused on stability, new integrations, and accessibility improvements.",
-    "size": 100,
-    "reviews": 6000000,
-    "ratingAvg": 4.7,
+    "description": "Stream movies, TV shows, and original content anytime and anywhere. Discover a variety of genres and curated collections for every taste.\nCreate multiple profiles for family members, track your watchlist, and get personalized recommendations based on viewing habits.",
+    "size": 130,
+    "reviews": 75000000,
+    "ratingAvg": 4.5,
     "ratingClass": "Excellent",
-    "downloads": "150M",
+    "downloads": 130,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 150000
-      },
-      {
-        "name": "2 star",
-        "count": 225000
-      },
-      {
-        "name": "3 star",
-        "count": 750000
-      },
-      {
-        "name": "4 star",
-        "count": 1875000
-      },
-      {
-        "name": "5 star",
-        "count": 4500000
-      }
+      { "name": "1 star", "count": 3250 },
+      { "name": "2 star", "count": 3900 },
+      { "name": "3 star", "count": 7800 },
+      { "name": "4 star", "count": 26000 },
+      { "name": "5 star", "count": 56500 }
     ]
   },
   {
@@ -344,33 +194,18 @@
     "title": "LinkedIn",
     "companyName": "LinkedIn Corporation",
     "id": 11,
-    "description": "LinkedIn by LinkedIn Corporation — overview and technical summary:\n1) Purpose: Provides core functionality for users to connect, create, or consume content depending on the app domain.\n2) Architecture: Built with a modular client-side UI, efficient data caching, and CDN-backed static assets.\n3) Performance: Optimized for low-latency responses and minimal memory footprint on mobile devices.\n4) Data Handling: Uses secure transport (TLS) and robust local caching with eviction policies.\n5) Offline Support: Graceful degradation, queuing of user actions while offline, and reliable sync when online.\n6) Multimedia: Efficient codecs and adaptive streaming for audio/video to adjust to bandwidth.\n7) Security: Multi-layered authentication, optional two-factor auth, and periodic security audits.\n8) Privacy: User data minimization and settings for explicit consent and data export.\n9) Scalability: Back-end horizontally scales and uses sharding for large user bases.\n10) APIs: Public/private APIs for integrations and developer tooling.\n11) Accessibility: ARIA labels, screen-reader support, and adjustable font sizes.\n12) Internationalization: Locale-aware formatting, multi-language content, right-to-left support.\n13) Battery Optimization: Background tasks throttled and batching used to reduce wakeups.\n14) Network Efficiency: Uses compression, request coalescing, and delta payloads to lower data use.\n15) Reliability: Retry strategies with exponential backoff for transient failures.\n16) Observability: Metrics, logs, and traces collected to detect regressions quickly.\n17) Testing: Automated E2E and unit coverage for core user flows.\n18) UX: Intuitive navigation patterns and consistent micro-interactions across screens.\n19) Onboarding: Progressive disclosure and contextual tips to improve retention.\n20) Updates: Seamless incremental updates and graceful migration for persisted data.\n21) Monetization: Supports ads/subscriptions/in-app purchases with configurable offers.\n22) Admin Tools: Moderation, analytics dashboards, and content controls for operators.\n23) Compliance: GDPR, CCPA considerations and regional data controls where required.\n24) Troubleshooting: Built-in diagnostics, crash reporting, and user feedback flows.\n25) Roadmap: Regular releases focused on stability, new integrations, and accessibility improvements.",
+    "description": "Grow your professional network and find career opportunities worldwide. Connect with colleagues, mentors, and industry leaders.\nShare updates, post articles, and engage with groups to enhance your professional presence. LinkedIn helps you track jobs and skills development effectively.",
     "size": 100,
-    "reviews": 4800000,
-    "ratingAvg": 4.5,
+    "reviews": 50000000,
+    "ratingAvg": 4.3,
     "ratingClass": "Very Good",
-    "downloads": "100M",
+    "downloads": 110,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 120000
-      },
-      {
-        "name": "2 star",
-        "count": 180000
-      },
-      {
-        "name": "3 star",
-        "count": 600000
-      },
-      {
-        "name": "4 star",
-        "count": 1500000
-      },
-      {
-        "name": "5 star",
-        "count": 3600000
-      }
+      { "name": "1 star", "count": 2200 },
+      { "name": "2 star", "count": 2750 },
+      { "name": "3 star", "count": 4400 },
+      { "name": "4 star", "count": 11000 },
+      { "name": "5 star", "count": 34600 }
     ]
   },
   {
@@ -378,33 +213,18 @@
     "title": "Zoom",
     "companyName": "Zoom Video Communications",
     "id": 12,
-    "description": "Zoom by Zoom Video Communications — overview and technical summary:\n1) Purpose: Provides core functionality for users to connect, create, or consume content depending on the app domain.\n2) Architecture: Built with a modular client-side UI, efficient data caching, and CDN-backed static assets.\n3) Performance: Optimized for low-latency responses and minimal memory footprint on mobile devices.\n4) Data Handling: Uses secure transport (TLS) and robust local caching with eviction policies.\n5) Offline Support: Graceful degradation, queuing of user actions while offline, and reliable sync when online.\n6) Multimedia: Efficient codecs and adaptive streaming for audio/video to adjust to bandwidth.\n7) Security: Multi-layered authentication, optional two-factor auth, and periodic security audits.\n8) Privacy: User data minimization and settings for explicit consent and data export.\n9) Scalability: Back-end horizontally scales and uses sharding for large user bases.\n10) APIs: Public/private APIs for integrations and developer tooling.\n11) Accessibility: ARIA labels, screen-reader support, and adjustable font sizes.\n12) Internationalization: Locale-aware formatting, multi-language content, right-to-left support.\n13) Battery Optimization: Background tasks throttled and batching used to reduce wakeups.\n14) Network Efficiency: Uses compression, request coalescing, and delta payloads to lower data use.\n15) Reliability: Retry strategies with exponential backoff for transient failures.\n16) Observability: Metrics, logs, and traces collected to detect regressions quickly.\n17) Testing: Automated E2E and unit coverage for core user flows.\n18) UX: Intuitive navigation patterns and consistent micro-interactions across screens.\n19) Onboarding: Progressive disclosure and contextual tips to improve retention.\n20) Updates: Seamless incremental updates and graceful migration for persisted data.\n21) Monetization: Supports ads/subscriptions/in-app purchases with configurable offers.\n22) Admin Tools: Moderation, analytics dashboards, and content controls for operators.\n23) Compliance: GDPR, CCPA considerations and regional data controls where required.\n24) Troubleshooting: Built-in diagnostics, crash reporting, and user feedback flows.\n25) Roadmap: Regular releases focused on stability, new integrations, and accessibility improvements.",
-    "size": 100,
-    "reviews": 4800000,
-    "ratingAvg": 4.5,
-    "ratingClass": "Good",
-    "downloads": "100M",
+    "description": "Video conferencing and online meeting platform for teams and businesses. Join or host meetings with HD video and audio.\nSchedule and manage meetings efficiently with calendar integrations. Collaborate with screen sharing, chat, and breakout rooms for productive sessions.",
+    "size": 75,
+    "reviews": 40000000,
+    "ratingAvg": 4.4,
+    "ratingClass": "Very Good",
+    "downloads": 90,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 120000
-      },
-      {
-        "name": "2 star",
-        "count": 180000
-      },
-      {
-        "name": "3 star",
-        "count": 600000
-      },
-      {
-        "name": "4 star",
-        "count": 1500000
-      },
-      {
-        "name": "5 star",
-        "count": 3600000
-      }
+      { "name": "1 star", "count": 1350 },
+      { "name": "2 star", "count": 1980 },
+      { "name": "3 star", "count": 4500 },
+      { "name": "4 star", "count": 11700 },
+      { "name": "5 star", "count": 25500 }
     ]
   },
   {
@@ -412,33 +232,18 @@
     "title": "Pinterest",
     "companyName": "Pinterest Inc.",
     "id": 13,
-    "description": "Pinterest by Pinterest Inc. — overview and technical summary:\n1) Purpose: Provides core functionality for users to connect, create, or consume content depending on the app domain.\n2) Architecture: Built with a modular client-side UI, efficient data caching, and CDN-backed static assets.\n3) Performance: Optimized for low-latency responses and minimal memory footprint on mobile devices.\n4) Data Handling: Uses secure transport (TLS) and robust local caching with eviction policies.\n5) Offline Support: Graceful degradation, queuing of user actions while offline, and reliable sync when online.\n6) Multimedia: Efficient codecs and adaptive streaming for audio/video to adjust to bandwidth.\n7) Security: Multi-layered authentication, optional two-factor auth, and periodic security audits.\n8) Privacy: User data minimization and settings for explicit consent and data export.\n9) Scalability: Back-end horizontally scales and uses sharding for large user bases.\n10) APIs: Public/private APIs for integrations and developer tooling.\n11) Accessibility: ARIA labels, screen-reader support, and adjustable font sizes.\n12) Internationalization: Locale-aware formatting, multi-language content, right-to-left support.\n13) Battery Optimization: Background tasks throttled and batching used to reduce wakeups.\n14) Network Efficiency: Uses compression, request coalescing, and delta payloads to lower data use.\n15) Reliability: Retry strategies with exponential backoff for transient failures.\n16) Observability: Metrics, logs, and traces collected to detect regressions quickly.\n17) Testing: Automated E2E and unit coverage for core user flows.\n18) UX: Intuitive navigation patterns and consistent micro-interactions across screens.\n19) Onboarding: Progressive disclosure and contextual tips to improve retention.\n20) Updates: Seamless incremental updates and graceful migration for persisted data.\n21) Monetization: Supports ads/subscriptions/in-app purchases with configurable offers.\n22) Admin Tools: Moderation, analytics dashboards, and content controls for operators.\n23) Compliance: GDPR, CCPA considerations and regional data controls where required.\n24) Troubleshooting: Built-in diagnostics, crash reporting, and user feedback flows.\n25) Roadmap: Regular releases focused on stability, new integrations, and accessibility improvements.",
-    "size": 100,
-    "reviews": 4800000,
-    "ratingAvg": 4.6,
+    "description": "Discover new ideas for inspiration, design, recipes, and creativity. Explore boards curated by people worldwide.\nSave and organize pins to your collections, follow trending topics, and collaborate on group boards for shared projects.",
+    "size": 60,
+    "reviews": 30000000,
+    "ratingAvg": 4.5,
     "ratingClass": "Excellent",
-    "downloads": "100M",
+    "downloads": 80,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 120000
-      },
-      {
-        "name": "2 star",
-        "count": 180000
-      },
-      {
-        "name": "3 star",
-        "count": 600000
-      },
-      {
-        "name": "4 star",
-        "count": 1500000
-      },
-      {
-        "name": "5 star",
-        "count": 3600000
-      }
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 12000 }
     ]
   },
   {
@@ -446,33 +251,18 @@
     "title": "Reddit",
     "companyName": "Reddit Inc.",
     "id": 14,
-    "description": "Reddit by Reddit Inc. — overview and technical summary:\n1) Purpose: Provides core functionality for users to connect, create, or consume content depending on the app domain.\n2) Architecture: Built with a modular client-side UI, efficient data caching, and CDN-backed static assets.\n3) Performance: Optimized for low-latency responses and minimal memory footprint on mobile devices.\n4) Data Handling: Uses secure transport (TLS) and robust local caching with eviction policies.\n5) Offline Support: Graceful degradation, queuing of user actions while offline, and reliable sync when online.\n6) Multimedia: Efficient codecs and adaptive streaming for audio/video to adjust to bandwidth.\n7) Security: Multi-layered authentication, optional two-factor auth, and periodic security audits.\n8) Privacy: User data minimization and settings for explicit consent and data export.\n9) Scalability: Back-end horizontally scales and uses sharding for large user bases.\n10) APIs: Public/private APIs for integrations and developer tooling.\n11) Accessibility: ARIA labels, screen-reader support, and adjustable font sizes.\n12) Internationalization: Locale-aware formatting, multi-language content, right-to-left support.\n13) Battery Optimization: Background tasks throttled and batching used to reduce wakeups.\n14) Network Efficiency: Uses compression, request coalescing, and delta payloads to lower data use.\n15) Reliability: Retry strategies with exponential backoff for transient failures.\n16) Observability: Metrics, logs, and traces collected to detect regressions quickly.\n17) Testing: Automated E2E and unit coverage for core user flows.\n18) UX: Intuitive navigation patterns and consistent micro-interactions across screens.\n19) Onboarding: Progressive disclosure and contextual tips to improve retention.\n20) Updates: Seamless incremental updates and graceful migration for persisted data.\n21) Monetization: Supports ads/subscriptions/in-app purchases with configurable offers.\n22) Admin Tools: Moderation, analytics dashboards, and content controls for operators.\n23) Compliance: GDPR, CCPA considerations and regional data controls where required.\n24) Troubleshooting: Built-in diagnostics, crash reporting, and user feedback flows.\n25) Roadmap: Regular releases focused on stability, new integrations, and accessibility improvements.",
-    "size": 100,
-    "reviews": 2800000,
-    "ratingAvg": 4.7,
-    "ratingClass": "Very Good",
-    "downloads": "50M",
+    "description": "Community-driven platform to discuss, share, and explore trending topics. Join subreddits that match your interests.\nPost content, comment, and upvote to engage with communities. Reddit provides tools for moderation and personalized feeds to improve user experience.",
+    "size": 85,
+    "reviews": 28000000,
+    "ratingAvg": 4.2,
+    "ratingClass": "Good",
+    "downloads": 70,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 70000
-      },
-      {
-        "name": "2 star",
-        "count": 105000
-      },
-      {
-        "name": "3 star",
-        "count": 350000
-      },
-      {
-        "name": "4 star",
-        "count": 875000
-      },
-      {
-        "name": "5 star",
-        "count": 2100000
-      }
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 1680 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 6300 },
+      { "name": "5 star", "count": 13230 }
     ]
   },
   {
@@ -480,33 +270,18 @@
     "title": "Discord",
     "companyName": "Discord Inc.",
     "id": 15,
-    "description": "Discord by Discord Inc. — overview and technical summary:\n1) Purpose: Provides core functionality for users to connect, create, or consume content depending on the app domain.\n2) Architecture: Built with a modular client-side UI, efficient data caching, and CDN-backed static assets.\n3) Performance: Optimized for low-latency responses and minimal memory footprint on mobile devices.\n4) Data Handling: Uses secure transport (TLS) and robust local caching with eviction policies.\n5) Offline Support: Graceful degradation, queuing of user actions while offline, and reliable sync when online.\n6) Multimedia: Efficient codecs and adaptive streaming for audio/video to adjust to bandwidth.\n7) Security: Multi-layered authentication, optional two-factor auth, and periodic security audits.\n8) Privacy: User data minimization and settings for explicit consent and data export.\n9) Scalability: Back-end horizontally scales and uses sharding for large user bases.\n10) APIs: Public/private APIs for integrations and developer tooling.\n11) Accessibility: ARIA labels, screen-reader support, and adjustable font sizes.\n12) Internationalization: Locale-aware formatting, multi-language content, right-to-left support.\n13) Battery Optimization: Background tasks throttled and batching used to reduce wakeups.\n14) Network Efficiency: Uses compression, request coalescing, and delta payloads to lower data use.\n15) Reliability: Retry strategies with exponential backoff for transient failures.\n16) Observability: Metrics, logs, and traces collected to detect regressions quickly.\n17) Testing: Automated E2E and unit coverage for core user flows.\n18) UX: Intuitive navigation patterns and consistent micro-interactions across screens.\n19) Onboarding: Progressive disclosure and contextual tips to improve retention.\n20) Updates: Seamless incremental updates and graceful migration for persisted data.\n21) Monetization: Supports ads/subscriptions/in-app purchases with configurable offers.\n22) Admin Tools: Moderation, analytics dashboards, and content controls for operators.\n23) Compliance: GDPR, CCPA considerations and regional data controls where required.\n24) Troubleshooting: Built-in diagnostics, crash reporting, and user feedback flows.\n25) Roadmap: Regular releases focused on stability, new integrations, and accessibility improvements.",
-    "size": 100,
-    "reviews": 2800000,
-    "ratingAvg": 4.7,
-    "ratingClass": "Good",
-    "downloads": "50M",
+    "description": "Join servers, voice chats, and gaming communities with friends worldwide. Chat, stream, and collaborate in real time.\nUse text channels, voice rooms, and roles to organize communities. Discord integrates bots and apps for moderation and entertainment.",
+    "size": 90,
+    "reviews": 34000000,
+    "ratingAvg": 4.6,
+    "ratingClass": "Excellent",
+    "downloads": 75,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 70000
-      },
-      {
-        "name": "2 star",
-        "count": 105000
-      },
-      {
-        "name": "3 star",
-        "count": 350000
-      },
-      {
-        "name": "4 star",
-        "count": 875000
-      },
-      {
-        "name": "5 star",
-        "count": 2100000
-      }
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 22300 }
     ]
   },
   {
@@ -514,33 +289,18 @@
     "title": "Uber Eats",
     "companyName": "Uber Technologies Inc.",
     "id": 16,
-    "description": "Uber Eats by Uber Technologies Inc. — overview and technical summary:\n1) Purpose: Provides core functionality for users to connect, create, or consume content depending on the app domain.\n2) Architecture: Built with a modular client-side UI, efficient data caching, and CDN-backed static assets.\n3) Performance: Optimized for low-latency responses and minimal memory footprint on mobile devices.\n4) Data Handling: Uses secure transport (TLS) and robust local caching with eviction policies.\n5) Offline Support: Graceful degradation, queuing of user actions while offline, and reliable sync when online.\n6) Multimedia: Efficient codecs and adaptive streaming for audio/video to adjust to bandwidth.\n7) Security: Multi-layered authentication, optional two-factor auth, and periodic security audits.\n8) Privacy: User data minimization and settings for explicit consent and data export.\n9) Scalability: Back-end horizontally scales and uses sharding for large user bases.\n10) APIs: Public/private APIs for integrations and developer tooling.\n11) Accessibility: ARIA labels, screen-reader support, and adjustable font sizes.\n12) Internationalization: Locale-aware formatting, multi-language content, right-to-left support.\n13) Battery Optimization: Background tasks throttled and batching used to reduce wakeups.\n14) Network Efficiency: Uses compression, request coalescing, and delta payloads to lower data use.\n15) Reliability: Retry strategies with exponential backoff for transient failures.\n16) Observability: Metrics, logs, and traces collected to detect regressions quickly.\n17) Testing: Automated E2E and unit coverage for core user flows.\n18) UX: Intuitive navigation patterns and consistent micro-interactions across screens.\n19) Onboarding: Progressive disclosure and contextual tips to improve retention.\n20) Updates: Seamless incremental updates and graceful migration for persisted data.\n21) Monetization: Supports ads/subscriptions/in-app purchases with configurable offers.\n22) Admin Tools: Moderation, analytics dashboards, and content controls for operators.\n23) Compliance: GDPR, CCPA considerations and regional data controls where required.\n24) Troubleshooting: Built-in diagnostics, crash reporting, and user feedback flows.\n25) Roadmap: Regular releases focused on stability, new integrations, and accessibility improvements.",
-    "size": 100,
-    "reviews": 2800000,
-    "ratingAvg": 4.5,
-    "ratingClass": "Excellent",
-    "downloads": "50M",
+    "description": "Order food and groceries online and get them delivered to your doorstep. Browse local restaurants and menus with ease.\nTrack orders in real time and customize your meals. Uber Eats offers promotions, scheduling, and subscription options for regular orders.",
+    "size": 70,
+    "reviews": 25000000,
+    "ratingAvg": 4.4,
+    "ratingClass": "Very Good",
+    "downloads": 60,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 70000
-      },
-      {
-        "name": "2 star",
-        "count": 105000
-      },
-      {
-        "name": "3 star",
-        "count": 350000
-      },
-      {
-        "name": "4 star",
-        "count": 875000
-      },
-      {
-        "name": "5 star",
-        "count": 2100000
-      }
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 13300 }
     ]
   },
   {
@@ -548,33 +308,18 @@
     "title": "Duolingo",
     "companyName": "Duolingo, Inc.",
     "id": 17,
-    "description": "Duolingo by Duolingo, Inc. — overview and technical summary:\n1) Purpose: Provides core functionality for users to connect, create, or consume content depending on the app domain.\n2) Architecture: Built with a modular client-side UI, efficient data caching, and CDN-backed static assets.\n3) Performance: Optimized for low-latency responses and minimal memory footprint on mobile devices.\n4) Data Handling: Uses secure transport (TLS) and robust local caching with eviction policies.\n5) Offline Support: Graceful degradation, queuing of user actions while offline, and reliable sync when online.\n6) Multimedia: Efficient codecs and adaptive streaming for audio/video to adjust to bandwidth.\n7) Security: Multi-layered authentication, optional two-factor auth, and periodic security audits.\n8) Privacy: User data minimization and settings for explicit consent and data export.\n9) Scalability: Back-end horizontally scales and uses sharding for large user bases.\n10) APIs: Public/private APIs for integrations and developer tooling.\n11) Accessibility: ARIA labels, screen-reader support, and adjustable font sizes.\n12) Internationalization: Locale-aware formatting, multi-language content, right-to-left support.\n13) Battery Optimization: Background tasks throttled and batching used to reduce wakeups.\n14) Network Efficiency: Uses compression, request coalescing, and delta payloads to lower data use.\n15) Reliability: Retry strategies with exponential backoff for transient failures.\n16) Observability: Metrics, logs, and traces collected to detect regressions quickly.\n17) Testing: Automated E2E and unit coverage for core user flows.\n18) UX: Intuitive navigation patterns and consistent micro-interactions across screens.\n19) Onboarding: Progressive disclosure and contextual tips to improve retention.\n20) Updates: Seamless incremental updates and graceful migration for persisted data.\n21) Monetization: Supports ads/subscriptions/in-app purchases with configurable offers.\n22) Admin Tools: Moderation, analytics dashboards, and content controls for operators.\n23) Compliance: GDPR, CCPA considerations and regional data controls where required.\n24) Troubleshooting: Built-in diagnostics, crash reporting, and user feedback flows.\n25) Roadmap: Regular releases focused on stability, new integrations, and accessibility improvements.",
-    "size": 100,
-    "reviews": 2800000,
-    "ratingAvg": 4.5,
-    "ratingClass": "Very Good",
-    "downloads": "50M",
+    "description": "Learn languages for free with fun mini-lessons and interactive exercises. Track your progress and earn rewards.\nPractice speaking, listening, reading, and writing skills. Duolingo adapts lessons to your level and provides community forums for help.",
+    "size": 65,
+    "reviews": 22000000,
+    "ratingAvg": 4.7,
+    "ratingClass": "Excellent",
+    "downloads": 55,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 70000
-      },
-      {
-        "name": "2 star",
-        "count": 105000
-      },
-      {
-        "name": "3 star",
-        "count": 350000
-      },
-      {
-        "name": "4 star",
-        "count": 875000
-      },
-      {
-        "name": "5 star",
-        "count": 2100000
-      }
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 15200 }
     ]
   },
   {
@@ -582,33 +327,18 @@
     "title": "CapCut",
     "companyName": "Bytedance Pte. Ltd.",
     "id": 18,
-    "description": "CapCut by Bytedance Pte. Ltd. — overview and technical summary:\n1) Purpose: Provides core functionality for users to connect, create, or consume content depending on the app domain.\n2) Architecture: Built with a modular client-side UI, efficient data caching, and CDN-backed static assets.\n3) Performance: Optimized for low-latency responses and minimal memory footprint on mobile devices.\n4) Data Handling: Uses secure transport (TLS) and robust local caching with eviction policies.\n5) Offline Support: Graceful degradation, queuing of user actions while offline, and reliable sync when online.\n6) Multimedia: Efficient codecs and adaptive streaming for audio/video to adjust to bandwidth.\n7) Security: Multi-layered authentication, optional two-factor auth, and periodic security audits.\n8) Privacy: User data minimization and settings for explicit consent and data export.\n9) Scalability: Back-end horizontally scales and uses sharding for large user bases.\n10) APIs: Public/private APIs for integrations and developer tooling.\n11) Accessibility: ARIA labels, screen-reader support, and adjustable font sizes.\n12) Internationalization: Locale-aware formatting, multi-language content, right-to-left support.\n13) Battery Optimization: Background tasks throttled and batching used to reduce wakeups.\n14) Network Efficiency: Uses compression, request coalescing, and delta payloads to lower data use.\n15) Reliability: Retry strategies with exponential backoff for transient failures.\n16) Observability: Metrics, logs, and traces collected to detect regressions quickly.\n17) Testing: Automated E2E and unit coverage for core user flows.\n18) UX: Intuitive navigation patterns and consistent micro-interactions across screens.\n19) Onboarding: Progressive disclosure and contextual tips to improve retention.\n20) Updates: Seamless incremental updates and graceful migration for persisted data.\n21) Monetization: Supports ads/subscriptions/in-app purchases with configurable offers.\n22) Admin Tools: Moderation, analytics dashboards, and content controls for operators.\n23) Compliance: GDPR, CCPA considerations and regional data controls where required.\n24) Troubleshooting: Built-in diagnostics, crash reporting, and user feedback flows.\n25) Roadmap: Regular releases focused on stability, new integrations, and accessibility improvements.",
-    "size": 100,
-    "reviews": 2800000,
+    "description": "Professional video editing tool for mobile with music, effects, and AI tools. Create stunning videos with ease.\nAdd filters, transitions, and special effects to enhance your content. Share videos directly to social media platforms.",
+    "size": 150,
+    "reviews": 19000000,
     "ratingAvg": 4.6,
-    "ratingClass": "Good",
-    "downloads": "50M",
+    "ratingClass": "Excellent",
+    "downloads": 50,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 70000
-      },
-      {
-        "name": "2 star",
-        "count": 105000
-      },
-      {
-        "name": "3 star",
-        "count": 350000
-      },
-      {
-        "name": "4 star",
-        "count": 875000
-      },
-      {
-        "name": "5 star",
-        "count": 2100000
-      }
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 9200 }
     ]
   },
   {
@@ -616,33 +346,18 @@
     "title": "Canva",
     "companyName": "Canva Pty Ltd",
     "id": 19,
-    "description": "Canva by Canva Pty Ltd — overview and technical summary:\n1) Purpose: Provides core functionality for users to connect, create, or consume content depending on the app domain.\n2) Architecture: Built with a modular client-side UI, efficient data caching, and CDN-backed static assets.\n3) Performance: Optimized for low-latency responses and minimal memory footprint on mobile devices.\n4) Data Handling: Uses secure transport (TLS) and robust local caching with eviction policies.\n5) Offline Support: Graceful degradation, queuing of user actions while offline, and reliable sync when online.\n6) Multimedia: Efficient codecs and adaptive streaming for audio/video to adjust to bandwidth.\n7) Security: Multi-layered authentication, optional two-factor auth, and periodic security audits.\n8) Privacy: User data minimization and settings for explicit consent and data export.\n9) Scalability: Back-end horizontally scales and uses sharding for large user bases.\n10) APIs: Public/private APIs for integrations and developer tooling.\n11) Accessibility: ARIA labels, screen-reader support, and adjustable font sizes.\n12) Internationalization: Locale-aware formatting, multi-language content, right-to-left support.\n13) Battery Optimization: Background tasks throttled and batching used to reduce wakeups.\n14) Network Efficiency: Uses compression, request coalescing, and delta payloads to lower data use.\n15) Reliability: Retry strategies with exponential backoff for transient failures.\n16) Observability: Metrics, logs, and traces collected to detect regressions quickly.\n17) Testing: Automated E2E and unit coverage for core user flows.\n18) UX: Intuitive navigation patterns and consistent micro-interactions across screens.\n19) Onboarding: Progressive disclosure and contextual tips to improve retention.\n20) Updates: Seamless incremental updates and graceful migration for persisted data.\n21) Monetization: Supports ads/subscriptions/in-app purchases with configurable offers.\n22) Admin Tools: Moderation, analytics dashboards, and content controls for operators.\n23) Compliance: GDPR, CCPA considerations and regional data controls where required.\n24) Troubleshooting: Built-in diagnostics, crash reporting, and user feedback flows.\n25) Roadmap: Regular releases focused on stability, new integrations, and accessibility improvements.",
-    "size": 100,
-    "reviews": 2800000,
-    "ratingAvg": 4.7,
+    "description": "Design anything from social posts to business cards easily using templates. Access stock photos and fonts to enhance your projects.\nCollaborate with team members and download high-quality designs. Canva makes graphic design accessible to beginners and professionals alike.",
+    "size": 120,
+    "reviews": 32000000,
+    "ratingAvg": 4.8,
     "ratingClass": "Excellent",
-    "downloads": "50M",
+    "downloads": 70,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 70000
-      },
-      {
-        "name": "2 star",
-        "count": 105000
-      },
-      {
-        "name": "3 star",
-        "count": 350000
-      },
-      {
-        "name": "4 star",
-        "count": 875000
-      },
-      {
-        "name": "5 star",
-        "count": 2100000
-      }
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 22600 }
     ]
   },
   {
@@ -650,33 +365,18 @@
     "title": "Spotify Lite",
     "companyName": "Spotify AB",
     "id": 20,
-    "description": "Spotify Lite by Spotify AB — overview and technical summary:\n1) Purpose: Provides core functionality for users to connect, create, or consume content depending on the app domain.\n2) Architecture: Built with a modular client-side UI, efficient data caching, and CDN-backed static assets.\n3) Performance: Optimized for low-latency responses and minimal memory footprint on mobile devices.\n4) Data Handling: Uses secure transport (TLS) and robust local caching with eviction policies.\n5) Offline Support: Graceful degradation, queuing of user actions while offline, and reliable sync when online.\n6) Multimedia: Efficient codecs and adaptive streaming for audio/video to adjust to bandwidth.\n7) Security: Multi-layered authentication, optional two-factor auth, and periodic security audits.\n8) Privacy: User data minimization and settings for explicit consent and data export.\n9) Scalability: Back-end horizontally scales and uses sharding for large user bases.\n10) APIs: Public/private APIs for integrations and developer tooling.\n11) Accessibility: ARIA labels, screen-reader support, and adjustable font sizes.\n12) Internationalization: Locale-aware formatting, multi-language content, right-to-left support.\n13) Battery Optimization: Background tasks throttled and batching used to reduce wakeups.\n14) Network Efficiency: Uses compression, request coalescing, and delta payloads to lower data use.\n15) Reliability: Retry strategies with exponential backoff for transient failures.\n16) Observability: Metrics, logs, and traces collected to detect regressions quickly.\n17) Testing: Automated E2E and unit coverage for core user flows.\n18) UX: Intuitive navigation patterns and consistent micro-interactions across screens.\n19) Onboarding: Progressive disclosure and contextual tips to improve retention.\n20) Updates: Seamless incremental updates and graceful migration for persisted data.\n21) Monetization: Supports ads/subscriptions/in-app purchases with configurable offers.\n22) Admin Tools: Moderation, analytics dashboards, and content controls for operators.\n23) Compliance: GDPR, CCPA considerations and regional data controls where required.\n24) Troubleshooting: Built-in diagnostics, crash reporting, and user feedback flows.\n25) Roadmap: Regular releases focused on stability, new integrations, and accessibility improvements.",
-    "size": 100,
-    "reviews": 2800000,
-    "ratingAvg": 4.7,
+    "description": "A lightweight version of Spotify with faster performance and lower data use. Enjoy streaming music with minimal storage requirements.\nCreate playlists, follow artists, and discover new tracks. Spotify Lite is optimized for slower networks and smaller devices.",
+    "size": 12,
+    "reviews": 14000000,
+    "ratingAvg": 4.3,
     "ratingClass": "Very Good",
-    "downloads": "50M",
+    "downloads": 45,
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 70000
-      },
-      {
-        "name": "2 star",
-        "count": 105000
-      },
-      {
-        "name": "3 star",
-        "count": 350000
-      },
-      {
-        "name": "4 star",
-        "count": 875000
-      },
-      {
-        "name": "5 star",
-        "count": 2100000
-      }
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 8800 }
     ]
   }
 ]

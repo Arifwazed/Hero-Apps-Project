@@ -25,18 +25,18 @@ const InstallApp = ({singleApp,uninstall}) => {
     return (
         <div>
             <div className="flex justify-between items-center p-3 bg-white shadow-md rounded-lg my-3">
-          <div className="flex gap-6">
+          <div className="flex gap-3 md:gap-6">
             
             <img src={image} className='w-16 h-16 rounded-xl' alt="" />
             
-            <div className="justify-start">
-              <h1 className="font-semibold text-xl ">
+            <div className="">
+              <h1 className="font-semibold text-xl text-left">
                 {title}
               </h1>
-              <div className="flex gap-7 mt-3">
+              <div className="flex gap-4 md:gap-7 mt-3">
                 <div className="flex items-center text-[#00D390] ">
                   <img src={downImg} className="h-4 mr-1.5" alt="" />
-                  <p className='text-sm font-semibold'>{downloads}</p>
+                  <p className='text-sm font-semibold'>{downloads} M</p>
                 </div>
                 <div className="flex items-center text-[#FF8811] ">
                   <img src={ratingImg} className="h-4 mr-1.5" alt="" />
@@ -50,7 +50,7 @@ const InstallApp = ({singleApp,uninstall}) => {
             </div>
           </div>
           <div>
-            <button onClick={() => {handleUninstall(id)}} className="btn btn-md bg-[#00D390] text-white  font-semibold mr-2">
+            <button onClick={() => {handleUninstall(id)}} className="btn btn-md bg-[#00D390] text-white  font-semibold md:mr-2">
               Uninstall
             </button>
           </div>

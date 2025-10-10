@@ -1,13 +1,17 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
+
 import logoImg from "../../assets/logo.png"
 import contributeImg from "../../assets/contribute.png"
 
 const Navbar = () => {
     const links = <>
-     <Link to="/"><li className="md:mr-8">Home</li></Link>
-     <Link to="/apps"><li className="my-1 md:my-0 md:mr-8">Apps</li></Link>
-     <Link to="/installApp"><li>Installation</li></Link>
+    <NavLink to="/" className={({isActive}) => isActive ? "md:mr-8 bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold" : "md:mr-8"}>Home</NavLink>
+    <NavLink to="/apps" className={({isActive}) => isActive ? "my-1 md:my-0 md:mr-8 bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent  font-bold" : "my-1 md:my-0 md:mr-8"}>Apps</NavLink>
+    <NavLink to="/installApp" className={({isActive}) => isActive ? " bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold" : ""}>Installation</NavLink>
+     {/* <Link to="/"><li className="md:mr-8">Home</li></Link> */}
+     {/* <Link to="/apps"><li className="my-1 md:my-0 md:mr-8">Apps</li></Link> */}
+     {/* <Link to="/installApp"><li>Installation</li></Link> */}
     </>
   return (
     <div>
@@ -35,7 +39,7 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 py-2 px-4 shadow font-medium text-base"
             >
-                {links}
+              {links}
               {/* <li>
                 <a>Home</a>
               </li>
@@ -47,10 +51,12 @@ const Navbar = () => {
               </li> */}
             </ul>
           </div>
-          <Link to='/'>
+          <Link to="/">
             <div className="flex items-center text-base font-bold gap-x-1">
-                <img src={logoImg} width="40px" alt="" />
-                <h2 className="bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">HERO.IO</h2>
+              <img src={logoImg} width="40px" alt="" />
+              <h2 className="bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+                HERO.IO
+              </h2>
             </div>
           </Link>
           {/* <a className="btn btn-ghost text-xl">HERO.IO</a> */}
@@ -67,14 +73,16 @@ const Navbar = () => {
             <li>
               <a>Installation</a>
             </li> */}
+            
           </ul>
         </div>
         <div className="navbar-end">
-            <Link to="https://github.com/Arifwazed">
+          <Link to="https://github.com/Arifwazed">
             <button className="btn bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white text-base">
-            <img src={contributeImg} alt="" />
-            Contribute</button>
-            </Link>
+              <img src={contributeImg} alt="" />
+              Contribute
+            </button>
+          </Link>
           {/* <a className="btn bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white text-base">
             <img src={contributeImg} alt="" />
             Contribute</a> */}

@@ -22,7 +22,7 @@ const App = ({ singleApp }) => {
             </h2>
             
             <div className="card-actions justify-between mt-2">
-              <div className="badge badge-outline text-[#00D390] font-bold bg-[#F1F5E8]"><img src={downloadImg} width="15px" alt="" /> {downloads}</div>
+              <div className="badge badge-outline text-[#00D390] font-bold bg-[#F1F5E8]"><img src={downloadImg} width="15px" alt="" /> {downloads}M</div>
               <div className="badge badge-outline bg-[#ffe1c0]"><img src={ratingImg} width="15px" alt="" /> {ratingAvg}</div>
             </div>
           </div>
