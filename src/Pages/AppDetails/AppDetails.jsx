@@ -15,7 +15,17 @@ const AppDetails = () => {
     const {title, image, downloads, ratingAvg,reviews,description,companyName} = dataSerial;
     const [disable,setDisable] = useState(false);
 
-    // useEffect(()=> (),[])
+    useEffect(()=> {
+        const storedAppData = getInstalledApps();
+        const convertedStoredApp = storedAppData.map((id) => parseInt(id));
+        console.log( convertedStoredApp)
+        console.log("id:",  typeof appid)
+        const storedApp = convertedStoredApp.includes(appid);
+        console.log("storedApp:",storedApp)
+        if(storedApp){
+            setDisable(true)
+        }
+    },[])
 
     
     // if(getInstalledApps().includes(id)){
@@ -77,7 +87,9 @@ const AppDetails = () => {
                 </div>
             </div>
             <div className="card-actions justify-center md:justify-start mt-5">
-              <button onClick={() => {handleInstall(id)}} className="btn btn-lg bg-[#00D390] text-white  font-semibold">
+              <button  disabled={disable} onClick={() => {handleInstall(id)}}
+              style={{ backgroundColor: "#00D390" }} 
+              className={`btn btn-lg  text-white  font-semibold ${disable ?  "cursor-not-allowed opacity-90" : "hover:opacity-80"}`}>
                 {disable ? "Installed" : "Install Now (291 MB)"}</button>
             </div>
           </div>
