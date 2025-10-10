@@ -6,9 +6,9 @@ import contributeImg from "../../assets/contribute.png"
 
 const Navbar = () => {
     const links = <>
-    <NavLink to="/" className={({isActive}) => isActive ? "md:mr-8 bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold" : "md:mr-8"}>Home</NavLink>
-    <NavLink to="/apps" className={({isActive}) => isActive ? "my-1 md:my-0 md:mr-8 bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent  font-bold" : "my-1 md:my-0 md:mr-8"}>Apps</NavLink>
-    <NavLink to="/installApp" className={({isActive}) => isActive ? " bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold" : ""}>Installation</NavLink>
+    <NavLink to="/" className={({isActive}) => isActive ? "md:mr-8 bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold border-2 border-[#632EE3] py-1 px-3 rounded-xl" : "md:mr-8"}>Home</NavLink>
+    <NavLink to="/apps" className={({isActive}) => isActive ? "my-1 md:my-0 md:mr-8 bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent  font-bold border-2 border-[#632EE3] py-1 px-3 rounded-xl" : "my-1 md:my-0 md:mr-8"}>Apps</NavLink>
+    <NavLink to="/installApp" className={({isActive}) => isActive ? " bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold border-2 border-[#632EE3] py-1 px-3 rounded-xl" : ""}>Installation</NavLink>
      {/* <Link to="/"><li className="md:mr-8">Home</li></Link> */}
      {/* <Link to="/apps"><li className="my-1 md:my-0 md:mr-8">Apps</li></Link> */}
      {/* <Link to="/installApp"><li>Installation</li></Link> */}
