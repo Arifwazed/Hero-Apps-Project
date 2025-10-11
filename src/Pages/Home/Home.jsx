@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
 import Banner from '../../Components/Banner/Banner';
 import State from '../../Components/Banner/State';
 import Apps from '../Apps/Apps';
-import { useLoaderData } from 'react-router';
+import { useLoaderData, useNavigation } from 'react-router';
+import Loader from '../../Components/Loader/Loader';
 
 const Home = () => {
     const data = useLoaderData()
