@@ -10,7 +10,7 @@ const App = ({ singleApp }) => {
       
         <Link to={`/appDetails/${id}`}>
         <div className="card bg-base-100 w-80 md:w-96 shadow-sm p-4">
-          <figure className="">
+          <figure className=" bg-gray-100 rounded-xl">
             <img
               src={image}
               className="h-80 "

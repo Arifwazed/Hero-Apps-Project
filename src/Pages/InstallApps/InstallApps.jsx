@@ -71,7 +71,7 @@ const InstallApps = () => {
                     key={singleApp.id} 
                     singleApp={singleApp}
                     uninstall={(id) => {
-                        displayApps(pre => pre.filter(app => app.id !== id));
+                        setDisplayApps(pre => pre.filter(app => app.id !== id));
                     }}
                     ></InstallApp>)
             }
