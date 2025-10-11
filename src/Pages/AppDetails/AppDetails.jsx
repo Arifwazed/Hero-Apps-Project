@@ -12,7 +12,7 @@ const AppDetails = () => {
     const appid = parseInt(id)
     const data = useLoaderData();
     const dataSerial = data.find((item) => item.id === appid);
-    const {title, image, downloads, ratingAvg,reviews,description,companyName} = dataSerial;
+    const {title, image, downloads, ratingAvg,reviews,description,companyName,size} = dataSerial;
     const [disable,setDisable] = useState(false);
 
     useEffect(()=> {
@@ -26,16 +26,6 @@ const AppDetails = () => {
             setDisable(true)
         }
     },[])
-
-    
-    // if(getInstalledApps().includes(id)){
-    //     // const present = true;
-    //     setDisable(true)
-    // }
-    // else{
-    //     // const present = false;
-    //     setDisable(false)
-    // }
 
     const handleInstall = id => {
         console.log("button id:", id);
@@ -90,7 +80,7 @@ const AppDetails = () => {
               <button  disabled={disable} onClick={() => {handleInstall(id)}}
               style={{ backgroundColor: "#00D390" }} 
               className={`btn btn-lg  text-white  font-semibold ${disable ?  "cursor-not-allowed opacity-90" : "hover:opacity-80"}`}>
-                {disable ? "Installed" : "Install Now (291 MB)"}</button>
+                {disable ? "Installed" : `Install Now (${size} MB)`}</button>
             </div>
           </div>
         </div>

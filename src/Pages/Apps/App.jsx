@@ -13,7 +13,7 @@ const App = ({ singleApp }) => {
           <figure className=" bg-gray-100 rounded-xl">
             <img
               src={image}
-              className="h-80 "
+              className="h-80"
               alt="Shoes"
             />
           </figure>

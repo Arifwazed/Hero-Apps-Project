@@ -25,7 +25,7 @@ const InstallApp = ({singleApp,uninstall}) => {
     return (
         <div>
             <div className="flex justify-between items-center p-3 bg-white shadow-md rounded-lg my-3">
-          <div className="flex gap-3 md:gap-6">
+          <div className="flex gap-2 md:gap-6">
             
             <img src={image} className='w-16 h-16 rounded-xl' alt="" />
             
@@ -36,15 +36,14 @@ const InstallApp = ({singleApp,uninstall}) => {
               <div className="flex gap-4 md:gap-7 mt-3">
                 <div className="flex items-center text-[#00D390] ">
                   <img src={downImg} className="h-4 mr-1.5" alt="" />
-                  <p className='text-sm font-semibold'>{downloads} M</p>
+                  <p className='text-sm font-semibold'>{downloads}M</p>
                 </div>
                 <div className="flex items-center text-[#FF8811] ">
                   <img src={ratingImg} className="h-4 mr-1.5" alt="" />
                   <p className='text-sm font-semibold'>{ratingAvg}</p>
                 </div>
                 <div className="flex items-center text-[#627382] text-sm font-semibold">
-                  <p className="mr-1.5">{size}</p>
-                  <p>MB</p>
+                  <p className="mr-1.5">{size}MB</p>
                 </div>
               </div>
             </div>
