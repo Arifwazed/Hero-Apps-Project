@@ -46,7 +46,7 @@ const InstallApps = () => {
           Explore All Trending Apps on the Market developed by us
         </p>
         <div className="flex justify-between items-center mt-5">
-          <h1 className="font-semibold text-xl underline">{installApps.length} Apps Found</h1>
+          <h1 className="font-semibold text-xl underline">{displayApps.length} Apps Found</h1>
           <div className="dropdown dropdown-bottom dropdown-end ">
             <div tabIndex={0} role="button" className="btn m-1 text-base btn-dash">
               {sort ? sort : "Sort By Size"} ⬇️
