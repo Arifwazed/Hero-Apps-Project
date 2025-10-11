@@ -13,9 +13,11 @@ const Root = () => {
             {/* <div className='py-15'>
                 {loading ? <Loader/> : <Outlet></Outlet>}
             </div> */}
-            {loading ? 
-            (<div className="flex justify-center items-center py-10"> <Loader /> </div>) 
-            : <Outlet></Outlet>}
+            {
+                loading ? 
+                (<div className="flex justify-center items-center py-10"> <Loader /> </div>) 
+                : <Outlet></Outlet>
+            }
             
             <Footer></Footer>
         </div>
