@@ -85,7 +85,7 @@ const AllAppsPage = () => {
         </div>
 
         {/* App List Section */}
-        <div className="mt-8 border p-3 rounded-md bg-white">
+        <div className="mt-8  p-3 rounded-md ">
           {searchLoading ? (
             <div className="flex justify-center items-center py-10">
               <Loader />

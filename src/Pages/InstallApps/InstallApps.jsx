@@ -40,7 +40,7 @@ const InstallApps = () => {
 
   return (
     <div className="bg-gray-100 py-15">
-      <div className="text-center px-4">
+      <div className="text-center px-4 md:px-15">
         <h1 className="text-4xl font-bold">Your Installed Apps</h1>
         <p className="text-[#627382] text-lg mt-5 mx-5">
           Explore All Trending Apps on the Market developed by us

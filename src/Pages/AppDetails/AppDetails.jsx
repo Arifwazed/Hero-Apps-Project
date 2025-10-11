@@ -58,7 +58,7 @@ const AppDetails = () => {
   return (
     <div>
       <div className="bg-gray-100 py-20 px-5 md:px-20 ">
-        <div className="card lg:card-side shadow-sm border ">
+        <div className="card lg:card-side shadow-sm ">
           <figure className="w-76 md:w-88 mx-auto p-4 bg-white rounded-xl">
             <img
               src={image} 

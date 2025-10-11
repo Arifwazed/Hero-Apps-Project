@@ -10,7 +10,7 @@ const Apps = ({data}) => {
                 <p className='text-[#627382] text-lg mt-5 mx-5'>Explore All Trending Apps on the Market developed by us</p>
                 <div>
                     <Suspense fallback={<span>Loading.....</span>}>
-                    <div className='grid md:grid-cols-4 justify-items-center gap-6 mx-5 md:mx-35 border mt-8'>
+                    <div className='grid md:grid-cols-4 justify-items-center gap-6 mx-5 md:mx-35 mt-8'>
                        {
                         data.slice(0,8).map(singleApp => <App key={singleApp.id} singleApp={singleApp}></App>)
                        }
