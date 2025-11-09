@@ -7,13 +7,13 @@ const App = ({ singleApp }) => {
   const { title, image, downloads, ratingAvg,id } = singleApp;
   return (
     <div>
-      
+      {/* w-70 md:w-80 lg:w-70 xl:w-84 */}
         <Link to={`/appDetails/${id}`}>
-        <div className="card bg-base-100 w-80 md:w-96 shadow-sm p-4">
+        <div className="card bg-base-100 max-w-80 h-90 shadow-sm p-4">
           <figure className=" bg-gray-100 rounded-xl">
             <img
               src={image}
-              className="h-80"
+              className=""
               alt="Shoes"
             />
           </figure>
